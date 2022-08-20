@@ -1,0 +1,18 @@
+:root {
+    --borderi : 4px solid black;
+    --widthi : 30rem;
+    --heighti : 50rem;
+}
+.img1 {
+    border: var(--borderi);
+    width: var(--widthi);
+    height: var(--heighti);
+}
+.img2 {
+    border: var(--borderi);
+    width: var(--widthi);
+    height: var(--heighti);
+}
+.flex {
+    display: flex;
+}
