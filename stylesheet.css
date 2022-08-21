@@ -7,7 +7,7 @@
     --weighted : bolder;
 }
 .intro {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 .name, .email, .password,.username,.passconf {
     width: 20rem;
@@ -16,18 +16,19 @@
 }
 .form {
     text-align: center;
-    padding: 4rem 8rem 4rem 8rem;
-    margin-top: 8rem;
+    padding: 0rem 8rem 4rem 8rem;
+    margin-top: 1rem;
 }
-.img1 {
+.img1, .img2 {
     border: var(--borderi);
     width: var(--widthi);
     height: var(--heighti);
 }
-.img2 {
-    border: var(--borderi);
-    width: var(--widthi);
-    height: var(--heighti);
+.img3 {
+    border: 4px solid black;
+    width: 15rem;
+    height: 10rem;
+    margin-bottom: 1rem;
 }
 .flex {
     display: flex;
