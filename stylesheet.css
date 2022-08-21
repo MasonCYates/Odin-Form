@@ -2,6 +2,22 @@
     --borderi : 4px solid black;
     --widthi : 30rem;
     --heighti : 50rem;
+    --formmarg : .5rem 0 1rem 0;
+    --fontsized : 1.25rem;
+    --weighted : bolder;
+}
+.intro {
+    margin-bottom: 4rem;
+}
+.name, .email, .password,.username,.passconf {
+    width: 20rem;
+    margin: var(--formmarg);
+    font-size: var(--fontsized);
+}
+.form {
+    text-align: center;
+    padding: 4rem 8rem 4rem 8rem;
+    margin-top: 8rem;
 }
 .img1 {
     border: var(--borderi);
@@ -15,4 +31,16 @@
 }
 .flex {
     display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+.checkboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: .5rem;
+}
+.font {
+    font-size:var(--fontsized);
+    font-weight:var(--weighted) ;
 }
